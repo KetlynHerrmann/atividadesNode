@@ -34,13 +34,13 @@ console.log(listaDeViagens);
 
 var nomeComprador = entrada("Qual é seu nome?");
 
-if(idade comprador )
-
 var idadeComprador = entrada("Qual é a sua idade? ");
 
-if(idadeComprador <18){
-  console.log("Infelizmente, nao podemos vender as passagens para menor de idade");
-}
+  if(idadeComprador <18){
+    
+    console.log(`Olá, Sr(a). ${nomeComprador} por ter ${idadeComprador} anos, sua idade não é compatível com o nosso regulamento, não podemos vender a nossa passagem a você. Por favor, pedir a um responsável efetuar sua compra! ` );
+  }
+
 if(idadeComprador >= 18){
-  console.log("Parabens! Voce adquiriu sua passagem com sucesso.");
+  console.log(`Olá Sr(a) ${nomeComprador} obrigada pela sua preferência de comprar conosco! Selecione o lugar para onde deseja viajar.`);
 }
